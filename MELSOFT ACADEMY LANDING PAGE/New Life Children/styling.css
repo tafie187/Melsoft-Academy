@@ -4,6 +4,7 @@ html{
     border-right: 1px solid #333;
     background-image: url(images/back2.jpg);
     background-attachment: fixed;
+    opacity:0.6;
    
 
 }
@@ -12,6 +13,7 @@ html{
     width: 100px;
     height: 100px;
     background: #555;
+    mix-blend-mode:multiply;
     
   }
   .header h1 {
