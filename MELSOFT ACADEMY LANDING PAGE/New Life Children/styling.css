@@ -2,13 +2,17 @@ html{
     font-size: 20px;
     border-left: 1px solid #333;
     border-right: 1px solid #333;
-    background-color:lightyellow;
+    background-image: url(images/back2.jpg);
+    background-attachment: fixed;
+   
+
 }
 .header img {
     float: left;
     width: 100px;
     height: 100px;
     background: #555;
+    
   }
   .header h1 {
     position: relative;
@@ -30,9 +34,29 @@ body{
     margin: 0 auto;
     padding: -30rem;
     border-left: 15px;
-    border-right: 15px;
+    border-right: 15px; 
+    color:rgb(255, 255, 255);
+    mix-blend-mode:normal ;
+    
+   
 }
 hr{
     height: 1px;
     background-color:#9ACBFD;
 }
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #c319aa;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    mix-blend-mode:hard-light;
+  }
+  
