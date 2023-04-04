@@ -1,0 +1,14 @@
+.btn-custom {
+    background-color: #ed0606;
+    border-color: #ffffff;
+  }
+  
+  .btn-custom:hover,
+  .btn-custom:focus {
+    background-color: #4983ff;
+    border-color: #499bff;
+  }
+  .contact-us{
+    background-color: #f6f7fa;
+  }
+ 
